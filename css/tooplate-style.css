@@ -743,6 +743,7 @@ b, strong {
 
 .backside {
     position: absolute;
+    width: 350px;
     top: 0;
     left: 0;
     background: white;
@@ -818,7 +819,7 @@ b, strong {
   .social-icon li a {
     border-radius: 100px;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 45px;
     width: 30px;
     height: 30px;
     line-height: 30px;
@@ -831,5 +832,24 @@ b, strong {
 
   .social-icon li a:hover {
     background: linear-gradient(to right, #AF40FF 10%, #5B42F3 30%, #00DDEB 80%);
-    color: #ffffff;
+    color: #000000;
   }
+
+/*---------------------------------------
+    Icon - Small - Card Projects              
+  -----------------------------------------*/
+
+.galleryprojs{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.imageprojs img{
+  max-width: 28px;
+  padding: 0.1rem;
+}
+
+.imags p {
+  font-size: 10px;
+}
